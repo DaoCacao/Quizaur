@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "914795961605",
+    "firebase_url": "https://quiz-aur.firebaseio.com",
+    "project_id": "quiz-aur",
+    "storage_bucket": "quiz-aur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914795961605:android:83c31acd52b8d197",
+        "android_client_info": {
+          "package_name": "legion.core.quizaur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914795961605-04d8jeqjaqirgvdpmvt984cle8c74fan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9QdBBBkbiRkfMaXcn1YXwDjbEvbiWAQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
