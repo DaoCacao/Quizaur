@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import butterknife.ButterKnife;
 
 public abstract class BaseVH<I> extends RecyclerView.ViewHolder {
-    public BaseVH(ViewGroup parent, @LayoutRes int layout) {
+    protected BaseVH(ViewGroup parent, @LayoutRes int layout) {
         super(LayoutInflater.from(parent.getContext()).inflate(layout, parent, false));
         ButterKnife.bind(this, itemView);
     }

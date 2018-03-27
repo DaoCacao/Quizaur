@@ -3,8 +3,8 @@ package legion.core.quizaur.model.pojo;
 import java.util.List;
 
 public class Question {
-    String question;
-    List<Answer> answers;
+    private String question;
+    private List<Answer> answers;
 
     public Question(String question, List<Answer> answers) {
         this.question = question;

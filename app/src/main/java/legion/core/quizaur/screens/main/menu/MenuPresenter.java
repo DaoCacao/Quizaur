@@ -14,10 +14,6 @@ public class MenuPresenter extends BasePresenter<MenuMvp.View> implements MenuMv
         this.fragmentNavigation = fragmentNavigation;
     }
 
-    @Override public void onInitView() {
-
-    }
-
     @Override public void onChooseQuizClick() {
         fragmentNavigation.showQuizListFragment();
     }

@@ -9,7 +9,8 @@ import legion.core.quizaur.model.pojo.QuizListItem;
 
 
 public class QuizListPresenter extends BasePresenter<QuizListMvp.View> implements QuizListMvp.Presenter, QuizListMvp.OnQuizListItemClick {
-    @Inject public QuizListPresenter(QuizListMvp.View view) {
+
+    @Inject QuizListPresenter(QuizListMvp.View view) {
         super(view);
     }
 
@@ -17,7 +18,4 @@ public class QuizListPresenter extends BasePresenter<QuizListMvp.View> implement
         Log.e("", "click");
     }
 
-    @Override public void onInitView() {
-
-    }
 }

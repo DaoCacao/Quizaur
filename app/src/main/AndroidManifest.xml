@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".screens.quiz_builder.QuizBuilderActivity" />
+        <activity android:name=".screens.create_quiz.CreateQuizActivity" />
     </application>
 
 </manifest>

@@ -10,7 +10,7 @@ public class QuizListVH extends BaseVH<QuizListItem> {
     private final QuizListMvp.OnQuizListItemClick onQuizListItemClick;
 
     QuizListVH(ViewGroup parent, QuizListMvp.OnQuizListItemClick onQuizListItemClick) {
-        super(parent, R.layout.quiz_list_item);
+        super(parent, R.layout.item_quiz_list);
         this.onQuizListItemClick = onQuizListItemClick;
     }
 

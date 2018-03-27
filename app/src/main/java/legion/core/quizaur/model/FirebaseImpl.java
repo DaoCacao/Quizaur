@@ -11,7 +11,7 @@ import legion.core.quizaur.model.pojo.QuizListItem;
 
 public class FirebaseImpl implements Firebase {
 
-    public static final String QUIZ_REF = "Quiz";
+    private static final String QUIZ_REF = "Quiz";
 
     private DatabaseReference reference;
 

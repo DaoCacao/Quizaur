@@ -8,6 +8,7 @@ public interface MainMvp {
     }
 
     interface Presenter extends BaseMvp.Presenter {
+        void onInitView();
     }
 
     interface FragmentNavigation {

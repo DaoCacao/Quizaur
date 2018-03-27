@@ -9,6 +9,7 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import legion.core.quizaur.FragmentUtils;
 import legion.core.quizaur.R;
 import legion.core.quizaur.base.BaseActivity;
 import legion.core.quizaur.screens.main.menu.MenuFragment;
@@ -36,10 +37,10 @@ public class MainActivity extends BaseActivity implements MainMvp.View, MainMvp.
     }
 
     @Override public void showMenuFragment() {
-        fragmentManager.beginTransaction().replace(R.id.frame_container, menuFragment, "MenuFragment").commit();
+        FragmentUtils.showFragment(fragmentManager, R.id.frame_container, menuFragment, false);
     }
 
     @Override public void showQuizListFragment() {
-        fragmentManager.beginTransaction().replace(R.id.frame_container, quizListFragment, "QuizListFragment").commit();
+        FragmentUtils.showFragment(fragmentManager, R.id.frame_container, quizListFragment, true);
     }
 }

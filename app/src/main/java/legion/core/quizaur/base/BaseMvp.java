@@ -6,6 +6,5 @@ public interface BaseMvp {
     }
 
     interface Presenter {
-        void onInitView();
     }
 }

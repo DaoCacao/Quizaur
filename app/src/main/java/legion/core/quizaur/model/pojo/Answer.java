@@ -1,8 +1,8 @@
 package legion.core.quizaur.model.pojo;
 
 public class Answer {
-    String answer;
-    boolean isCorrect;
+    private String answer;
+    private boolean isCorrect;
 
     public Answer(String answer, boolean isCorrect) {
         this.answer = answer;
